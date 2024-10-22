@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+p {
+    color: blue;
+}
+
+.center {
+    color: black;
+    text-align: center;
+}
+
+
+
+.yash {
+    color: blueviolet;
+    text-align: justify;
+    font-size: 50px;
+    font-family: "Montserrat", sans-serif;
+    line-height: 2;
+    word-spacing: 15px;
+    text-decoration: line-through;
+    text-transform: lowercase;
+    text-indent: 200px;
+
+}

@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1320px;
+    margin: auto;
+}
+
+
+.sub-header{
+    padding: 20px;
+    background-color: #ff922d;
+}
+
+.call-icon{
+    color: white;
+}
+
+.phone-no{
+    color: white;
+    font-size: 20px;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gap-20{
+    gap: 20px;
+}
+
+.mail-icon{
+    color: white;
+}
+
+.mail-id{
+    color: white;
+    font-size: 20px;
+}
+
+.gap-30{
+    gap: 40px;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.social-icon{
+    color: white;
+}
+.justify-content{
+    justify-content: space-between;
+}
+
+.main-header{
+    padding: 30px;
+}
+
+.serve ul li a{
+    color: black;
+    font-size: 20px;
+}
+
+.cart{
+    font-size: 20px;
+    color:black;
+}
+
+.serve nav ul li a:hover{
+    color: #ff922d;
+}
+.circle{
+    position: relative;
+}
+.circle-2{
+    height: 20px;
+    width: 20px;
+    background-color: #ff922d;
+    border-radius: 50%;
+    position: absolute;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    top:-16px; 
+    left: 10px;
+
+}
+
+.main-banner{
+    height:calc(100vh - 157px);
+    
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+
+.sub-banner{
+    width: 50%;
+    padding: 50px;
+    background-color: white;
+    border-radius: 10px;
+    opacity: 0.8;
+    
+}
+
+.sub-detail-1{
+    font-family: "Lato", sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+    padding-bottom:20px;
+}
+
+.sub-detail-2{
+    color: #ff922d;
+}
+
+.sub-detail-3{
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    padding-bottom: 30px;
+    color: #695578;
+}
+
+.read-more button{
+    padding: 20px 25px;
+    font-size: 18px;
+    background-color: #ff922d;
+    color: white;
+    border: 1px solid orange;
+    border-radius: 35px;
+    transition: all 0.3s linear;
+    
+}
+
+.read-more button:hover{
+    background-color: white;
+    color: #ff922d;
+}
+
+.h-100{
+    height: 100%;
+
+}
+
+.serve nav ul li .p a{
+    color: #ff922d;
+}

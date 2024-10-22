@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+h1{
+    size: 100px;
+    background-color:white ;
+
+}
+
+
+.x{
+    width: 50%;
+    height: 300px;
+    background: rgb(2,0,36);
+    
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(38,121,9,1) 52%, rgba(0,212,255,1) 100%);
+background-repeat: no-repeat;
+}
+
+.y{
+    width: 80%;
+    height: 500px;
+    background-image: url(https://wallpapers.com/images/featured/avengers-pictures-1bmrlcqvr1xxrvut.jpg);
+    background-size:cover;
+    color: aquamarine;
+}
+
+.z{
+    width: 50%;
+    height: 500px;
+    background-image: url(../images/sunset.jpg);
+    
+    
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+
+.xyz{
+   
+    width: 100%;
+    height: 1000px;
+    background-image: url(https://tfhtml.themepul.com/ecofine/assets/img/bg.jpg);
+    color: white;
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+    font-family:"Poppins", sans-serif;
+}
+/* 
+.tr{
+    background-color: cadetblue;
+} */

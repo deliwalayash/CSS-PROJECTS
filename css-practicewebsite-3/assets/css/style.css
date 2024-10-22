@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+    padding: 0px 12px;
+  }
+
+.main-header{
+    
+    padding: 30px;
+}
+
+body{
+    background-color: #1a1a25;
+}
+
+.container{
+    max-width: 1320px;
+    margin: auto;
+}
+
+.input-text {
+    transition: all 0.3s linear;   
+}
+.input-text input{
+    color: #f5f1f1;
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+    background-color: #484851;
+    font-size: 16px;
+}
+
+
+
+.input-text:hover input{
+    outline:3px solid #4d1d49;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left-menu{
+    align-items: center;
+}
+
+.gap-20{
+    gap: 20px;
+}
+
+.justify-content{
+    justify-content: space-between;
+}
+
+.align-items{
+    align-items: center;
+}
+
+.right-menu nav ul li a{
+    color: white;
+    font-weight: 600;
+}
+
+.right-menu nav ul li a{
+    position: relative;
+}
+
+.right-menu nav ul li a::after{
+    position: absolute;
+    content: '';
+    width: 0px;
+    height: 2px;
+    background-color: #b51ea1;
+    bottom: 0;
+    right: 0;
+    transition: all 0.4s linear;
+}
+
+.right-menu nav ul li a:hover::after{
+    width: 100%;
+    left: 0px;
+}
+
+.fa-angle-down{
+    color: #8d8d92;
+}
+
+.gap-10{
+    gap: 10px;
+}
+
+.gap-50{
+    gap: 50px;
+}
+
+.pr-50{
+    padding-right: 50px;
+}
+
+.connect-wallet button{
+    background-color: #b51ea1;
+    color: white;
+    padding: 7px 20px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    border: 1px solid #b51ea1;
+    border-radius: 20px;
+}
+
+.connect-wallet button:hover{
+    box-shadow: 0px 0px 20px #b51ea1;
+}
+
+.main-title{
+    color: white;
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+.top-collection{
+    color: white;
+    font-size: 15px;
+}
+
+.main-banner-img{
+    overflow: hidden;
+    border-radius: 25px;
+
+}
+
+
+
+.main-banner-img img{
+  
+ transition: all 0.5s linear;
+ cursor: pointer;
+ 
+}
+
+.main-banner-img img:hover{
+    transform: scale(1.1);
+
+}
+
+
+
+.main-banner-img .main-banner-dec{
+    font-size: 25px;
+    color: black;
+    font-weight: 600;
+    position: absolute;
+    top: 144px;
+   
+    padding: 50px;
+}
+
+.main-banner-img .main-banner-sub-dec{
+    font-size: 16px;
+    color: color black;
+    font-weight: 200;
+    position: absolute;
+    top: 175px;
+    padding: 50px;
+}

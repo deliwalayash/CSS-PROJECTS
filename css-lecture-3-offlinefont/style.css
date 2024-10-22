@@ -1,0 +1,22 @@
+h1{
+    color: brown;
+    font-family: 'Nerko One';
+    font-size: 200px;
+    background-image: url("./fonts/blue-curve-background_53876-113112\ \(1\).avif");
+    background-repeat: no-repeat; 
+    background-size: cover;
+    display: inline-block;
+}
+span{
+    color: blue;
+}
+
+h2{
+    font-family: 'Fascinate Inline';
+    font-weight: 200px;
+    font-size: 80px;
+    background-image: url("./fonts/pngtree-rainbow-curves-abstract-colorful-background-image_2164067\ \(1\).jpg");
+    background-repeat: no-repeat; 
+    background-size: cover;
+    
+}

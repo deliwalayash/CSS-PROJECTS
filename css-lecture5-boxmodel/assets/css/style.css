@@ -1,0 +1,21 @@
+
+*{
+    box-sizing: border-box;
+}
+.box{
+    height: 800px;
+    width: 800px;
+    background-color: aqua;
+    padding: 100px;
+    border: 20px solid red;
+    border-radius: 50%;
+
+
+}
+
+.y{
+    border: 20px solid black;
+    display: inline-block;
+    margin-left: 500px;
+    border-radius: 50%;
+}

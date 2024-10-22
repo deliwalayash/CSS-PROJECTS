@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.box i{
+    display:inline-block;
+    font-size: 500px;
+    margin: 50px;
+    transition: all 0.3s linear;
+    background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+.box i:hover{
+    animation:spin 3s infinite alternate linear;
+}
+
+@keyframes spin{
+    0%{
+        transform: rotate(0deg);
+
+    }
+
+    50%{
+        transform: rotate(180deg);
+      
+    }
+
+    100%{
+        transform: rotate(360deg);
+        
+    }
+    
+}

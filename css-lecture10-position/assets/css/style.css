@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style:none;
+    text-decoration: none;
+}
+
+.box{
+
+    height: 500px;
+    width: 500px;
+    background-color: aqua;
+    position: relative;
+}
+
+.chotu-box{
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    position: absolute;
+}
+
+.dsc {
+    z-index: 1;
+    position: relative;
+}
+
+.box2{
+    
+}
+
+
