@@ -8,32 +8,35 @@
 
 .box i{
     display:inline-block;
-    font-size: 500px;
-    margin: 50px;
+    font-size: 50px;
+    /* margin: 50px; */
     transition: all 0.3s linear;
     background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    position: absolute;
+    animation:spin 10s infinite linear;
     
 }
 
-.box i:hover{
-    animation:spin 3s infinite alternate linear;
-}
+
 
 @keyframes spin{
     0%{
         transform: rotate(0deg);
+        left: 0%;
 
     }
 
     50%{
         transform: rotate(180deg);
+        left: 97%;
       
     }
 
     100%{
         transform: rotate(360deg);
+        left: 0%;
         
     }
     
